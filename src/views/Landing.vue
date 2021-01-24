@@ -4,7 +4,7 @@
         <div class="position-relative">
             <!-- shape Hero -->
             <section class="section-shaped my-0">
-                <div class="shape shape-style-3 shape-default shape-skew bg-gradient-warning">
+                <div class="shape shape-style-2 shape-default shape-skew bg-gradient-warning">
                     <span></span>
                     <span></span>
                     <span></span>
