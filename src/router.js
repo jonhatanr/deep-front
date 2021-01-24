@@ -6,22 +6,12 @@ import Components from "./views/Components.vue";
 import Landing from "./views/Landing.vue";
 import Login from "./views/Login.vue";
 import Register from "./views/Register.vue";
-import Profile from "./views/Profile.vue";
 
 Vue.use(Router);
 
 export default new Router({
-  // linkExactActiveClass: "active",
+  linkExactActiveClass: "active",
   routes: [
-    // {
-    //   path: "/",
-    //   name: "components",
-    //   components: {
-    //     header: AppHeader,
-    //     default: Components,
-    //     footer: AppFooter
-    //   }
-    // },
     {
       path: "/",
       name: "landing",
@@ -49,15 +39,7 @@ export default new Router({
         footer: AppFooter
       }
     },
-    {
-      path: "/profile",
-      name: "profile",
-      components: {
-        header: AppHeader,
-        default: Profile,
-        footer: AppFooter
-      }
-    }
+
   ],
   scrollBehavior: to => {
     if (to.hash) {

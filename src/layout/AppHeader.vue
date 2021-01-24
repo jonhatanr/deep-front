@@ -7,9 +7,7 @@
 
             <div class="row" slot="content-header" slot-scope="{closeMenu}">
                 <div class="col-6 collapse-brand">
-                    <a href="https://demos.creative-tim.com/vue-argon-design-system/documentation/">
-                        <img src="img/brand/blue.png">
-                    </a>
+                    <img src="img/brand/deep_orange_logo.png">
                 </div>
                 <div class="col-6 collapse-close">
                     <close-button @click="closeMenu"></close-button>
@@ -17,41 +15,13 @@
             </div>
 
             <ul class="navbar-nav navbar-nav-hover align-items-lg-center">
-                <!-- <base-dropdown class="nav-item" menu-classes="dropdown-menu-xl">
-                    <a slot="title" href="#" class="nav-link" data-toggle="dropdown" role="button">
-                        <i class="ni ni-ui-04 d-lg-none"></i>
-                        <span class="nav-link-inner--text">Buscar</span>
+                <li class="nav-item">
+                    <a class="nav-link nav-link-icon" href="#/about" rel="noopener"
+                       data-toggle="tooltip" title="Acerca de nosotros">
+                        <span class="nav-link white-text">Acerca de nosotros</span>
                     </a>
-                    <div class="dropdown-menu-inner">
-                        <a href="/restaurants"
-                           class="media d-flex align-items-center">
-                            <div class="icon icon-shape bg-gradient-primary rounded-circle text-white">
-                                <i class="ni ni-spaceship"></i>
-                            </div>
-                            <div class="media-body ml-3">
-                                <h6 class="heading text-primary mb-md-1">Getting started</h6>
-                                <p class="description d-none d-md-inline-block mb-0">Get started with Bootstrap, the
-                                    world's most popular framework for building responsive sites.</p>
-                            </div>
-                        </a>
-                        <a href="https://demos.creative-tim.com/vue-argon-design-system/documentation/"
-                           class="media d-flex align-items-center">
-                            <div class="icon icon-shape bg-gradient-warning rounded-circle text-white">
-                                <i class="ni ni-ui-04"></i>
-                            </div>
-                            <div class="media-body ml-3">
-                                <h5 class="heading text-warning mb-md-1">Components</h5>
-                                <p class="description d-none d-md-inline-block mb-0">Learn how to use Argon
-                                    compiling Scss, change brand colors and more.</p>
-                            </div>
-                        </a>
-                    </div>
-                </base-dropdown> -->
-                <a slot="title" href="#" class="nav-link" data-toggle="dropdown" role="button">
-                    <i class="ni ni-collection d-lg-none"></i>
-                     <router-link to="/about" class="nav-link-inner--text text-white">Acerca de nosotros</router-link>
-                    <!-- <span class="nav-link-inner--text">Blog</span> -->
-                </a>
+                </li>
+                
             </ul>
             <ul class="navbar-nav align-items-lg-center ml-lg-auto">
                 <li class="nav-item">
@@ -76,13 +46,13 @@
                     </a>
                 </li>
 
-                <li class="nav-item d-none d-lg-block ml-lg-4">
-                    <a href="https://www.creative-tim.com/product/vue-argon-design-system" target="_blank" rel="noopener"
-                       class="btn btn-neutral btn-icon">
-
-                        <router-link to="/register" class="nav-link-inner--text">Regístrate</router-link>
+                <li class="nav-item">
+                    <a href="#/register" rel="noopener" class="btn btn-neutral btn-icon"
+                       data-toggle="tooltip" title="Crea o accede a tu cuenta">
+                       <span class="nav-link-inner--text">Regístrate</span>
                     </a>
                 </li>
+
             </ul>
         </base-nav>
     </header>
