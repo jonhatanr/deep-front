@@ -46,8 +46,8 @@
                     </a>
                 </li>
 
-                <li class="nav-item">
-                    <a href="#/register" rel="noopener" class="btn btn-neutral btn-icon"
+                <li class="nav-item md-2">
+                    <a href="#/register" rel="noopener" class="btn btn-neutral btn-icon d-flex"
                        data-toggle="tooltip" title="Crea o accede a tu cuenta">
                        <span class="nav-link-inner--text">Regístrate</span>
                     </a>
