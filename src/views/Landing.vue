@@ -16,12 +16,8 @@
                     <span></span>
                 </div>
                 <div class="container shape-container d-flex">
-                    <div class="col order-md-2 overflow-hidden">
-                        <div class="overflow-hidden transform-perspective-right">
-                            <img src="img/brand/menu_show.jpeg" class="img-fluid">
-                        </div>
-                    </div>
-                    <div class="col order-md-1">
+                    
+                    <div class="col order-md-1 d-flex override-hidden">
                         <div class="row">
                             <div class="col-lg-10">
                                 <h1 class="display-3 text-white">
@@ -40,6 +36,12 @@
                                     </base-button>
                                 </div>
                             </div>
+                        </div>
+                    </div>
+
+                    <div class="col order-small-2 d-none d-sm-block d-sm-none d-md-block">
+                        <div class="transform-perspective-right md-10">
+                            <img src="img/brand/menu_show.jpeg" class="img-fluid">
                         </div>
                     </div>
                 </div>
