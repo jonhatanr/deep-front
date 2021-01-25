@@ -21,7 +21,7 @@
                             <div class="text-muted text-center mb-3">
                                 <p>Regístrate con</p>
                             </div>
-                            <div class="btn-wrapper text-center">
+                            <div class="btn-wrapper text-center d-flex">
                                 <base-button type="neutral">
                                     <img slot="icon" src="img/icons/common/facebook.svg">
                                     Facebook
@@ -74,8 +74,10 @@
         </div>
     </section>
 </template>
+
 <script>
-export default {};
+    export default {};
 </script>
+
 <style>
 </style>

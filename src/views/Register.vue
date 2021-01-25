@@ -21,7 +21,7 @@
                             <div class="text-muted text-center mb-3">
                                 <p>Crear cuenta con</p>
                             </div>
-                            <div class="btn-wrapper text-center">
+                            <div class="btn-wrapper text-center d-flex">
                                 <base-button type="neutral">
                                     <img slot="icon" src="img/icons/common/facebook.svg">
                                     Facebook
@@ -69,13 +69,20 @@
                             </form>
                         </template>
                     </card>
+                    <div class="mt-3 text-center">
+                        <a href="#/login" class="text-white">
+                            <small>¿Ya tienes cuenta?</small>
+                        </a>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
 </template>
+
 <script>
-export default {};
+    export default {};
 </script>
+
 <style>
 </style>

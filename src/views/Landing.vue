@@ -201,14 +201,14 @@
 </template>
 
 <script>
-import { BCarousel } from "bootstrap-vue/esm/components/carousel/carousel";
-import { BCarouselSlide } from "bootstrap-vue/esm/components/carousel/carousel-slide";
+    import { BCarousel } from "bootstrap-vue/esm/components/carousel/carousel";
+    import { BCarouselSlide } from "bootstrap-vue/esm/components/carousel/carousel-slide";
 
-export default {
-  name: "home",
-  components: {
-    BCarousel,
-    BCarouselSlide
-  }
-};
+    export default {
+    name: "home",
+    components: {
+        BCarousel,
+        BCarouselSlide
+    }
+    };
 </script>
